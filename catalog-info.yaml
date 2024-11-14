@@ -12,3 +12,6 @@ spec:
   dependsOn:
     - component:default/pets-backend
     - component:default/store-backend
+  consumesApi:
+    - api:default/pets-api
+    - api:default/store-api
