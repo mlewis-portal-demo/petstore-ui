@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: petstore-system
+spec:
+  type: url
+  targets:
+    - https://github.com/mlewis-portal-demo/petstore-ui/blob/main/catalog-info.yaml
+    - https://github.com/mlewis-portal-demo/pets-backend/blob/main/catalog-info.yaml
+    - https://github.com/mlewis-portal-demo/store-backend/blob/main/catalog-info.yaml
