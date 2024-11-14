@@ -4,6 +4,7 @@ metadata:
   name: petstore-ui
   annotations:
     github.com/project-slug: 'mlewis-portal-demo/petstore-ui'
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: production
