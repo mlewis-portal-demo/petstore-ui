@@ -9,3 +9,6 @@ spec:
   type: website
   lifecycle: production
   owner: team-a
+  dependsOn:
+    api:default/pets-api
+    api:default/store-api
