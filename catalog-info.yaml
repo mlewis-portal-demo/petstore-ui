@@ -10,5 +10,5 @@ spec:
   lifecycle: production
   owner: team-a
   dependsOn:
-    api:default/pets-api
-    api:default/store-api
+    - api:default/pets-api
+    - api:default/store-api
